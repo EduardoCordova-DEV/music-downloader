@@ -34,3 +34,7 @@ yarn.lock
 
 # Misc
 *.log
+
+# Ignore YAML files
+*.yml
+*.yaml
