@@ -1,0 +1,28 @@
+{
+  "name": "music-downloader",
+  "private": true,
+  "version": "1.0.0",
+  "description": "\"# music-downloader\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoCordova-DEV/music-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EduardoCordova-DEV/music-downloader/issues"
+  },
+  "homepage": "https://github.com/EduardoCordova-DEV/music-downloader#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
