@@ -1,5 +1,3 @@
----
-
 # 🎵 Music Downloader — Fullstack App
 
 > A modern, responsive UI + backend powered by [yt-dlp](https://github.com/yt-dlp/yt-dlp).  
