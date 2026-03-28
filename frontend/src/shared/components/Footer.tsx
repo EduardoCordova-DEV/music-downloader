@@ -26,7 +26,7 @@ export const Footer = ({ title = '' }: Props) => {
         {/* Right */}
         <div className="flex items-center gap-4 text-sm text-muted-foreground">
           <a
-            href="https://github.com/EduardoCordova-DEV/music-downloader-ui"
+            href="https://github.com/EduardoCordova-DEV/music-downloader"
             target="_blank"
             rel="noreferrer"
             className="hover:text-foreground transition-colors flex items-center gap-1"
