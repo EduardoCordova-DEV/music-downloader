@@ -63,6 +63,7 @@ cd ../backend && npm install
 
 # Return to the root and start both services
 cd ..
+npm install concurrently --save-dev
 npm start
 ```
 
